@@ -6,7 +6,7 @@
                 "text": "Improvement Time"
             },
             "style": {
-                "fontSize": 18,
+                "fontSize": 18.0,
                 "fontColor": "080c14",
                 "fontWeight": "bold"
             }
