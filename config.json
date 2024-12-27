@@ -1,18 +1,11 @@
 {
-  "type": "Column",
-  "children": [
-    {
-      "type": "Text",
-      "data": "Hello, Flutter!",
-      "style": {
-        "fontSize": 24,
-        "color": "#FF5733"
-      }
+    "type": "text",
+    "data": {
+        "text": "Improvement Time"
     },
-    {
-      "type": "Button",
-      "label": "Click Me",
-      "onPressed": "buttonPressed"
+    "style": {
+        "fontSize": 18,
+        "fontColor": "080c14",
+        "fontWeight": "bold"
     }
-  ]
 }
