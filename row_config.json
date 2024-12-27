@@ -10,7 +10,7 @@
                             "text": "Improvement Time"
                         },
                         "style": {
-                            "fontSize": 18.0,
+                            "fontSize": 18,
                             "fontColor": "080c14",
                             "fontWeight": "bold"
                         }
@@ -21,7 +21,7 @@
                             "text": "20 mins"
                         },
                         "style": {
-                            "fontSize": 18.0,
+                            "fontSize": 18,
                             "fontColor": "080c14",
                             "fontWeight": "bold"
                         }
@@ -33,10 +33,10 @@
                 "horizontal_alignment": "sB",
                 "spacing": 10,
                 "padding": {
-                    "top": 0.0,
-                    "right": 8.0,
-                    "bottom": 16.0,
-                    "left": 8.0
+                    "top": 0,
+                    "right": 8,
+                    "bottom": 16,
+                    "left": 8
                 }
             }
         }
