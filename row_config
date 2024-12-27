@@ -1,0 +1,44 @@
+{
+    "children": [
+        {
+            "type": "row",
+            "data": {
+                "children": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "Improvement Time"
+                        },
+                        "style": {
+                            "fontSize": 18,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "20 mins"
+                        },
+                        "style": {
+                            "fontSize": 18,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    }
+                ]
+            },
+            "style": {
+                "alignment": "leading",
+                "horizontal_alignment": "sB",
+                "spacing": 10,
+                "padding": {
+                    "top": 0,
+                    "right": 8,
+                    "bottom": 16,
+                    "left": 8
+                }
+            }
+        }
+    ]
+}
