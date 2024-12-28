@@ -1,44 +1,87 @@
 {
     "children": [
         {
-            "type": "row",
+            "type": "column",
             "data": {
-                "children": [
-                    {
+              "children": [
+                {
+                  "type": "row",
+                  "data": {
+                    "children": [
+                      {
                         "type": "text",
                         "data": {
-                            "text": "Improvement Time"
+                          "text": "Improvement Time"
                         },
                         "style": {
-                            "fontSize": 18,
-                            "fontColor": "080c14",
-                            "fontWeight": "bold"
+                          "fontSize": 18,
+                          "fontColor": "080c14",
+                          "fontWeight": "bold"
                         }
-                    },
-                    {
+                      },
+                      {
+                        "type": "spacer",
+                        "data": {
+                          "minLength": 10
+                        },
+                        "style": {}
+                      },
+                      {
                         "type": "text",
                         "data": {
-                            "text": "20 mins"
+                          "text": "20 mins"
                         },
                         "style": {
-                            "fontSize": 18,
-                            "fontColor": "080c14",
-                            "fontWeight": "bold"
+                          "fontSize": 18,
+                          "fontColor": "080c14",
+                          "fontWeight": "bold"
                         }
+                      }
+                    ]
+                  },
+                  "style": {
+                    "alignment": "leading",
+                    "horizontal_alignment": "sB",
+                    "spacing": 10,
+                    "padding": {
+                      "top": 0,
+                      "right": 8,
+                      "bottom": 16,
+                      "left": 8
                     }
-                ]
+                  }
+                },
+                {
+                  "type": "networkImage",
+                  "data": {
+                    "imageUrl": "https://i.imgur.com/X87pi1B.png"
+                  },
+                  "style": {
+                    "height": 118,
+                    "width": 311,
+                    "scale": "fit",
+                    "cornerRadius": 20,
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    }
+                  }
+                }
+              ]
             },
             "style": {
-                "alignment": "leading",
-                "horizontal_alignment": "sB",
-                "spacing": 10,
-                "padding": {
-                    "top": 0,
-                    "right": 8,
-                    "bottom": 16,
-                    "left": 8
-                }
+              "alignment": "center",
+              "vertical_alignment": "sE",
+              "spacing": 10,
+              "padding": {
+                "top": 0,
+                "right": 10,
+                "bottom": 0,
+                "left": 10
+              }
             }
-        }
+          }
     ]
 }
