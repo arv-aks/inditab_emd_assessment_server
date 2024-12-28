@@ -11,10 +11,10 @@
                       {
                         "type": "text",
                         "data": {
-                          "text": "Improvement Time"
+                          "text": "Offers & discounts"
                         },
                         "style": {
-                          "fontSize": 18,
+                          "fontSize": 26,
                           "fontColor": "080c14",
                           "fontWeight": "bold"
                         }
@@ -29,12 +29,12 @@
                       {
                         "type": "text",
                         "data": {
-                          "text": "20 mins"
+                          "text": "see all"
                         },
                         "style": {
                           "fontSize": 18,
                           "fontColor": "080c14",
-                          "fontWeight": "bold"
+                          "fontWeight": "medium"
                         }
                       }
                     ]
