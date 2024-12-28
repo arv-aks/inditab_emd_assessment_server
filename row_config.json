@@ -14,7 +14,7 @@
                           "text": "Offers & discounts"
                         },
                         "style": {
-                          "fontSize": 26,
+                          "fontSize": 24,
                           "fontColor": "080c14",
                           "fontWeight": "bold"
                         }
@@ -32,7 +32,7 @@
                           "text": "see all"
                         },
                         "style": {
-                          "fontSize": 18,
+                          "fontSize": 16,
                           "fontColor": "080c14",
                           "fontWeight": "medium"
                         }
