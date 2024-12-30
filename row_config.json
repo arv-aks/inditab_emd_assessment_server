@@ -1,29 +1,33 @@
 {
-    "type": "container",
-    "data": {
-        "children": [
-            {
-                "type": "networkImage",
-                "data": {
-                    "imageUrl": "https://i.imgur.com/aY8TZE9.png"
-                },
-                "style": {
-                    "height": 54,
-                    "width": 54,
-                    "scale": "fit",
-                    "cornerRadius": 12
+    "children": [
+        {
+            "type": "container",
+            "data": {
+                "children": [
+                    {
+                        "type": "networkImage",
+                        "data": {
+                            "imageUrl": "https://i.imgur.com/aY8TZE9.png"
+                        },
+                        "style": {
+                            "height": 54,
+                            "width": 54,
+                            "scale": "fit",
+                            "cornerRadius": 12
+                        }
+                    }
+                ]
+            },
+            "style": {
+                "width": 70,
+                "height": 70,
+                "backgroundColor": "3094EA",
+                "border": {
+                    "borderColor": "ffffff",
+                    "borderWidth": 0,
+                    "borderRadius": 16
                 }
             }
-        ]
-    },
-    "style": {
-        "width": 70,
-        "height": 70,
-        "backgroundColor": "3094EA",
-        "border": {
-            "borderColor": "ffffff",
-            "borderWidth": 0,
-            "borderRadius": 16
         }
-    }
+    ]
 }
