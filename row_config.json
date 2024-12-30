@@ -1,87 +1,175 @@
 {
     "children": [
         {
-            "type": "column",
+            "type": "listview",
             "data": {
-              "children": [
-                {
-                  "type": "row",
-                  "data": {
-                    "children": [
-                      {
+                "children": [
+                    {
                         "type": "text",
                         "data": {
-                          "text": "Offers & discounts"
+                            "text": "Offers & discounts"
                         },
                         "style": {
-                          "fontSize": 24,
-                          "fontColor": "080c14",
-                          "fontWeight": "bold"
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
                         }
-                      },
-                      {
-                        "type": "spacer",
-                        "data": {
-                          "minLength": 10
-                        },
-                        "style": {}
-                      },
-                      {
+                    },
+                    {
                         "type": "text",
                         "data": {
-                          "text": "see all"
+                            "text": "skdjf"
                         },
                         "style": {
-                          "fontSize": 16,
-                          "fontColor": "080c14",
-                          "fontWeight": "medium"
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
                         }
-                      }
-                    ]
-                  },
-                  "style": {
-                    "alignment": "leading",
-                    "horizontalAlignment": "sB",
-                    "spacing": 10,
-                    "padding": {
-                      "top": 0,
-                      "right": 8,
-                      "bottom": 16,
-                      "left": 8
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "skdjf"
+                        },
+                        "style": {
+                            "fontSize": 24,
+                            "fontColor": "080c14",
+                            "fontWeight": "bold"
+                        }
                     }
-                  }
-                },
-                {
-                  "type": "networkImage",
-                  "data": {
-                    "imageUrl": "https://i.imgur.com/X87pi1B.png"
-                  },
-                  "style": {
-                    "height": 118,
-                    "width": 311,
-                    "scale": "fit",
-                    "cornerRadius": 20,
-                    "padding": {
-                      "top": 0,
-                      "right": 0,
-                      "bottom": 0,
-                      "left": 0
-                    }
-                  }
-                }
-              ]
+                ]
             },
             "style": {
-              "alignment": "center",
-              "verticalAlignment": "sE",
-              "spacing": 10,
-              "padding": {
-                "top": 0,
-                "right": 10,
-                "bottom": 0,
-                "left": 10
-              }
+                "scrollDirection": "horizontal",
+                "spacing": 10,
+                "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                }
             }
-          }
+        }
     ]
 }
