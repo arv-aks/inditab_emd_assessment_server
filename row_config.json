@@ -23,7 +23,7 @@
                                                     "padding": {
                                                         "top": 0,
                                                         "right": 0,
-                                                        "bottom": 14,
+                                                        "bottom": 12,
                                                         "left": 0
                                                     }
                                                 }
@@ -34,7 +34,7 @@
                                                     "text": "Flex 3 seater magic bed"
                                                 },
                                                 "style": {
-                                                    "fontSize": 12,
+                                                    "fontSize": 14,
                                                     "fontColor": "000000",
                                                     "padding": {
                                                         "top": 0,
@@ -106,8 +106,7 @@
                             ]
                         },
                         "style": {
-                            "height": 300,
-                            "width": 250,
+                            "width": 220,
                             "border": {
                                 "color": "000000",
                                 "radius": {
@@ -118,7 +117,7 @@
                                 },
                                 "width": 1
                             },
-                            "backgroundColor": "FF0000"
+                            "backgroundColor": "ffffff"
                         }
                     }
                 ]
