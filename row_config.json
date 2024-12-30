@@ -21,7 +21,6 @@
                                                     "height": 100,
                                                     "width": 100,
                                                     "scale": "fill",
-                                                    "cornerRadius": 0,
                                                     "padding": {
                                                         "top": 0,
                                                         "right": 0,
@@ -75,14 +74,14 @@
                                                     "border": {
                                                         "color": "ffffff",
                                                         "radius": {
-                                                            "top": 10,
-                                                            "right": 10,
-                                                            "bottom": 10,
-                                                            "left": 10
+                                                             "topLeft": 10,
+                                                            "topRight": 10,
+                                                            "bottomLeft": 10,
+                                                            "bottomRight": 10
                                                         },
                                                         "width": 0
                                                     },
-                                                    "backgroundColor": "ffffff"
+                                                    "backgroundColor": "ffefb3"
                                                 }
                                             }
                                         ]
@@ -106,16 +105,21 @@
                             "width": 250,
                             "border": {
                                 "color": "000000",
-                                "radius": "16",
+                                "radius": {
+                                       "topLeft": 10,
+                                                            "topRight": 10,
+                                                            "bottomLeft": 10,
+                                                            "bottomRight": 10
+                                },
                                 "width": 1
                             },
-                            "backgroundColor": "ffffff"
+                            "backgroundColor": "B67255"
                         }
                     }
                 ]
             },
             "style": {
-                "shrinkWrap": true,
+                "shrinkWrap": "true",
                 "spacing": 10,
                 "scrollDirection": "horizontal",
                 "padding": {
