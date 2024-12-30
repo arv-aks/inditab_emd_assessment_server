@@ -116,6 +116,7 @@
                 ]
             },
             "style": {
+                "height": 550,
                 "shrinkWrap": true,
                 "spacing": 10,
                 "scrollDirection": "horizontal",
