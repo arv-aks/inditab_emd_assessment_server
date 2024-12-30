@@ -111,10 +111,10 @@
                             "border": {
                                 "color": "000000",
                                 "radius": {
-                                    "topLeft": 0,
-                                    "topRight": 0,
-                                    "bottomLeft": 0,
-                                    "bottomRight": 0
+                                    "topLeft": 10,
+                                    "topRight": 10,
+                                    "bottomLeft": 10,
+                                    "bottomRight": 10
                                 },
                                 "width": 1
                             },
@@ -128,10 +128,10 @@
                 "spacing": 10,
                 "scrollDirection": "horizontal",
                 "padding": {
-                    "top": 0,
-                    "right": 0,
-                    "bottom": 0,
-                    "left": 0
+                    "top": 10,
+                    "right": 10,
+                    "bottom": 10,
+                    "left": 10
                 }
             }
         }
