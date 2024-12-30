@@ -5,7 +5,7 @@
       "data": {
         "children": [
           {
-            "type": "card",
+            "type": "container",
             "data": {
               "children": [
                 {
@@ -175,7 +175,7 @@
                                                         }
                                                       },
                                                       "leading": {
-                                                        "type": "card",
+                                                        "type": "container",
                                                         "data": {
                                                           "children": [
                                                             {
@@ -251,7 +251,7 @@
                                                       "borderRadius": 20,
                                                       "shadowColor": "000000",
                                                       "shadowRadius": 0,
-                                                      "cardY": 0
+                                                      "containerY": 0
                                                     }
                                                   },
                                                   {
@@ -280,7 +280,7 @@
                                                         }
                                                       },
                                                       "leading": {
-                                                        "type": "card",
+                                                        "type": "container",
                                                         "data": {
                                                           "children": [
                                                             {
@@ -356,7 +356,7 @@
                                                       "borderRadius": 20,
                                                       "shadowColor": "000000",
                                                       "shadowRadius": 0,
-                                                      "cardY": 0,
+                                                      "containerY": 0,
                                                       "padding": {
                                                         "top": 10,
                                                         "bottom": 0,
@@ -391,7 +391,7 @@
                                                         }
                                                       },
                                                       "leading": {
-                                                        "type": "card",
+                                                        "type": "container",
                                                         "data": {
                                                           "children": [
                                                             {
@@ -467,7 +467,7 @@
                                                       "borderRadius": 20,
                                                       "shadowColor": "000000",
                                                       "shadowRadius": 0,
-                                                      "cardY": 0,
+                                                      "containerY": 0,
                                                       "padding": {
                                                         "left": 0,
                                                         "right": 0,
@@ -559,7 +559,7 @@
             "data": {
               "children": [
                 {
-                  "type": "card",
+                  "type": "container",
                   "data": {
                     "children": [
                       {
@@ -598,7 +598,7 @@
                   }
                 },
                 {
-                  "type": "card",
+                  "type": "container",
                   "data": {
                     "children": [
                       {
