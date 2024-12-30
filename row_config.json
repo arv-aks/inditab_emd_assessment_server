@@ -41,7 +41,7 @@
                   },
                   "style": {
                     "alignment": "leading",
-                    "horizontal_alignment": "sB",
+                    "horizontalAlignment": "sB",
                     "spacing": 10,
                     "padding": {
                       "top": 0,
@@ -73,7 +73,7 @@
             },
             "style": {
               "alignment": "center",
-              "vertical_alignment": "sE",
+              "verticalAlignment": "sE",
               "spacing": 10,
               "padding": {
                 "top": 0,
