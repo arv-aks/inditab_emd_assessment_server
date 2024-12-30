@@ -23,7 +23,7 @@
                                                     "padding": {
                                                         "top": 0,
                                                         "right": 0,
-                                                        "bottom": 0,
+                                                        "bottom": 14,
                                                         "left": 0
                                                     }
                                                 }
@@ -43,9 +43,6 @@
                                                         "left": 0
                                                     }
                                                 }
-                                            },
-                                            {
-                                                "type": "spacer"
                                             },
                                             {
                                                 "type": "container",
@@ -72,7 +69,7 @@
                                                 },
                                                 "style": {
                                                     "alignment": "center",
-                                                    "height": 60,
+                                                    "height": 50,
                                                     "border": {
                                                         "color": "ffffff",
                                                         "radius": {
@@ -83,7 +80,13 @@
                                                         },
                                                         "width": 0
                                                     },
-                                                    "backgroundColor": "FFFF00"
+                                                    "backgroundColor": "FFFF00",
+                                                    "padding": {
+                                                        "top": 12,
+                                                        "right": 0,
+                                                        "bottom": 0,
+                                                        "left": 0
+                                                    }
                                                 }
                                             }
                                         ]
@@ -121,7 +124,6 @@
                 ]
             },
             "style": {
-                "height": 250,
                 "shrinkWrap": true,
                 "spacing": 10,
                 "scrollDirection": "horizontal",
