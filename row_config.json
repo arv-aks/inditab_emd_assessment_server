@@ -78,7 +78,7 @@
                                                         },
                                                         "width": 0
                                                     },
-                                                    "backgroundColor": "ffefb3"
+                                                    "backgroundColor": "FFFF00"
                                                 }
                                             }
                                         ]
@@ -110,7 +110,7 @@
                                 },
                                 "width": 1
                             },
-                            "backgroundColor": "B67255"
+                            "backgroundColor": "FF0000"
                         }
                     }
                 ]
