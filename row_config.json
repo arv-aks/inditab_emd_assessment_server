@@ -119,7 +119,7 @@
                 ]
             },
             "style": {
-                "shrinkWrap": "true",
+                "shrinkWrap": true,
                 "spacing": 10,
                 "scrollDirection": "horizontal",
                 "padding": {
