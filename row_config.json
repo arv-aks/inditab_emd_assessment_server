@@ -46,6 +46,9 @@
                                                 }
                                             },
                                             {
+                                                "type": "spacer"
+                                            },
+                                            {
                                                 "type": "container",
                                                 "data": {
                                                     "children": [
@@ -116,7 +119,7 @@
                 ]
             },
             "style": {
-                "height": 550,
+                "height": 250,
                 "shrinkWrap": true,
                 "spacing": 10,
                 "scrollDirection": "horizontal",
