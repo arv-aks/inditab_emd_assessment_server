@@ -1,666 +1,95 @@
 {
   "children": [
-    {
-      "type": "column",
-      "data": {
-        "children": [
-          {
-            "type": "container",
-            "data": {
-              "children": [
-                {
-                  "type": "column",
-                  "data": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "data": {
-                          "text": "Mindful Me"
-                        },
-                        "style": {
-                          "fontSize": 18,
-                          "fontColor": "080c14",
-                          "fontWeight": "bold"
-                        }
-                      },
-                      {
-                        "type": "text",
-                        "data": {
-                          "text": "Browse meditation sessions by themes, such as stress reduction, sleep improvement, anxiety management, or self-compassion. Library of guided meditation. etc."
-                        },
-                        "style": {
-                          "fontSize": 12,
-                          "fontColor": "819099",
-                          "padding": {
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "left": 0
-                          }
-                        }
-                      },
-                      {
-                        "type": "row",
-                        "data": {
-                          "children": [
-                            {
-                              "type": "button",
-                              "data": {
-                                "label": "View Health Data"
-                              },
-                              "style": {
-                                "height": 40,
-                                "width": 200,
-                                "backgroundColor": "FFFFFF",
-                                "foregroundColor": "007AFF",
-                                "cornerRadius": 8,
-                                "borderColor": "007AFF",
-                                "borderWidth": 1,
-                                "padding": {
-                                  "top": 10,
-                                  "right": 0,
-                                  "bottom": 10,
-                                  "left": 0
-                                }
-                              },
-                              "action": {
-                                "type": "push",
-                                "destination": "petDetail",
-                                "payload": {
-                                  "data": {
-                                    "children": [
-                                      {
-                                        "type": "column",
-                                        "data": {
-                                          "children": [
+                                {
+                                    "type": "column",
+                                    "data": {
+                                        "children": [
                                             {
-                                              "type": "networkImage",
-                                              "data": {
-                                                "imageUrl": "https://www.med-technews.com/downloads/4237/download/health%20app.jpg?cb=46c3b2cd0ee7e7d9ffe586f539fcb9c1"
-                                              },
-                                              "style": {
-                                                "height": 200,
-                                                "width": 311,
-                                                "scale": "fill",
-                                                "cornerRadius": 0,
-                                                "padding": {
-                                                  "top": 0,
-                                                  "right": 0,
-                                                  "bottom": 10,
-                                                  "left": 0
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "type": "column",
-                                              "data": {
-                                                "children": [
-                                                  {
-                                                    "type": "row",
-                                                    "data": {
-                                                      "children": [
-                                                        {
-                                                          "type": "text",
-                                                          "data": {
-                                                            "text": "All Health Data"
-                                                          },
-                                                          "style": {
-                                                            "fontSize": 24,
-                                                            "fontColor": "000000",
-                                                            "fontWeight": "bold"
-                                                          }
-                                                        },
-                                                        {
-                                                          "type": "spacer",
-                                                          "data": {
-                                                            "minLength": 0
-                                                          },
-                                                          "style": {}
-                                                        },
-                                                        {
-                                                          "type": "networkImage",
-                                                          "data": {
-                                                            "imageUrl": "https://i.imgur.com/Apjqogc.png"
-                                                          },
-                                                          "style": {
-                                                            "height": 80,
-                                                            "width": 80,
-                                                            "scale": "fit",
-                                                            "cornerRadius": 20,
-                                                            "padding": {
-                                                              "top": 0,
-                                                              "right": 0,
-                                                              "bottom": 0,
-                                                              "left": 50
-                                                            }
-                                                          }
-                                                        }
-                                                      ]
-                                                    },
-                                                    "style": {
-                                                      "alignment": "center",
-                                                      "horizontal_alignment": "sB",
-                                                      "spacing": 10,
-                                                      "padding": {
+                                                "type": "networkImage",
+                                                "data": {
+                                                    "imageUrl": "https://www.med-technews.com/downloads/4237/download/health%20app.jpg?cb=46c3b2cd0ee7e7d9ffe586f539fcb9c1"
+                                                },
+                                                "style": {
+                                                    "height": 100,
+                                                    "width": 100,
+                                                    "scale": "fill",
+                                                    "cornerRadius": 0,
+                                                    "padding": {
                                                         "top": 0,
                                                         "right": 0,
                                                         "bottom": 0,
                                                         "left": 0
-                                                      }
                                                     }
-                                                  },
-                                                  {
-                                                    "type": "listTile",
-                                                    "data": {
-                                                      "title": {
-                                                        "type": "text",
-                                                        "data": {
-                                                          "text": "Heart Rate"
-                                                        },
-                                                        "style": {
-                                                          "fontSize": 18,
-                                                          "fontColor": "000000",
-                                                          "fontWeight": "semiBold"
-                                                        }
-                                                      },
-                                                      "subtitle": {
-                                                        "type": "text",
-                                                        "data": {
-                                                          "text": "Your heart rate is high"
-                                                        },
-                                                        "style": {
-                                                          "fontSize": 16,
-                                                          "fontColor": "828282",
-                                                          "fontWeight": "regular"
-                                                        }
-                                                      },
-                                                      "leading": {
-                                                        "type": "container",
-                                                        "data": {
-                                                          "children": [
-                                                            {
-                                                              "type": "networkImage",
-                                                              "data": {
-                                                                "imageUrl": "https://i.imgur.com/aY8TZE9.png"
-                                                              },
-                                                              "style": {
-                                                                "height": 54,
-                                                                "width": 54,
-                                                                "scale": "fit",
-                                                                "cornerRadius": 12
-                                                              }
-                                                            }
-                                                          ]
-                                                        },
-                                                        "style": {
-                                                          "width": 70,
-                                                          "height": 70,
-                                                          "backgroundColor": "3094EA",
-                                                          "borderColor": "ffffff",
-                                                          "borderWidth": 0,
-                                                          "elevation": 0,
-                                                          "borderRadius": 16,
-                                                          "shadowColor": "ffffff",
-                                                          "shadowRadius": 0
-                                                        }
-                                                      },
-                                                      "trailing": {
-                                                        "type": "row",
-                                                        "data": {
-                                                          "children": [
-                                                            {
-                                                              "type": "text",
-                                                              "data": {
-                                                                "text": "84"
-                                                              },
-                                                              "style": {
-                                                                "fontSize": 28,
-                                                                "fontColor": "ff0000",
-                                                                "fontWeight": "bold"
-                                                              }
-                                                            },
-                                                            {
-                                                              "type": "text",
-                                                              "data": {
-                                                                "text": " bpm"
-                                                              },
-                                                              "style": {
-                                                                "fontSize": 16,
-                                                                "fontColor": "ff0000",
-                                                                "fontWeight": "regular",
-                                                                "padding": {
-                                                                  "left": 0,
-                                                                  "top": 0,
-                                                                  "right": 0,
-                                                                  "bottom": 0
-                                                                }
-                                                              }
-                                                            }
-                                                          ]
-                                                        },
-                                                        "style": {
-                                                          "content_width": "wrap_content"
-                                                        }
-                                                      }
-                                                    },
-                                                    "style": {
-                                                      "backgroundColor": "f8f8f8",
-                                                      "borderColor": "eeeeee",
-                                                      "borderWidth": 0,
-                                                      "elevation": 0,
-                                                      "borderRadius": 20,
-                                                      "shadowColor": "000000",
-                                                      "shadowRadius": 0,
-                                                      "containerY": 0
-                                                    }
-                                                  },
-                                                  {
-                                                    "type": "listTile",
-                                                    "data": {
-                                                      "title": {
-                                                        "type": "text",
-                                                        "data": {
-                                                          "text": "Breathing Rate"
-                                                        },
-                                                        "style": {
-                                                          "fontSize": 18,
-                                                          "fontColor": "000000",
-                                                          "fontWeight": "semiBold"
-                                                        }
-                                                      },
-                                                      "subtitle": {
-                                                        "type": "text",
-                                                        "data": {
-                                                          "text": "Your breathing rate is normal"
-                                                        },
-                                                        "style": {
-                                                          "fontSize": 16,
-                                                          "fontColor": "828282",
-                                                          "fontWeight": "regular"
-                                                        }
-                                                      },
-                                                      "leading": {
-                                                        "type": "container",
-                                                        "data": {
-                                                          "children": [
-                                                            {
-                                                              "type": "networkImage",
-                                                              "data": {
-                                                                "imageUrl": "https://i.imgur.com/J7RZbRg.png"
-                                                              },
-                                                              "style": {
-                                                                "height": 54,
-                                                                "width": 54,
-                                                                "scale": "fit",
-                                                                "cornerRadius": 12
-                                                              }
-                                                            }
-                                                          ]
-                                                        },
-                                                        "style": {
-                                                          "width": 70,
-                                                          "height": 70,
-                                                          "backgroundColor": "46D387",
-                                                          "borderColor": "ffffff",
-                                                          "borderWidth": 0,
-                                                          "elevation": 0,
-                                                          "borderRadius": 16,
-                                                          "shadowColor": "ffffff",
-                                                          "shadowRadius": 0
-                                                        }
-                                                      },
-                                                      "trailing": {
-                                                        "type": "row",
-                                                        "data": {
-                                                          "children": [
-                                                            {
-                                                              "type": "text",
-                                                              "data": {
-                                                                "text": "13"
-                                                              },
-                                                              "style": {
-                                                                "fontSize": 28,
-                                                                "fontColor": "46D387",
-                                                                "fontWeight": "bold"
-                                                              }
-                                                            },
-                                                            {
-                                                              "type": "text",
-                                                              "data": {
-                                                                "text": " brpm"
-                                                              },
-                                                              "style": {
-                                                                "fontSize": 16,
-                                                                "fontColor": "46D387",
-                                                                "fontWeight": "regular",
-                                                                "padding": {
-                                                                  "left": 0,
-                                                                  "top": 0,
-                                                                  "right": 0,
-                                                                  "bottom": 0
-                                                                }
-                                                              }
-                                                            }
-                                                          ]
-                                                        },
-                                                        "style": {
-                                                          "content_width": "wrap_content"
-                                                        }
-                                                      }
-                                                    },
-                                                    "style": {
-                                                      "backgroundColor": "f8f8f8",
-                                                      "borderColor": "eeeeee",
-                                                      "borderWidth": 0,
-                                                      "elevation": 0,
-                                                      "borderRadius": 20,
-                                                      "shadowColor": "000000",
-                                                      "shadowRadius": 0,
-                                                      "containerY": 0,
-                                                      "padding": {
-                                                        "top": 10,
-                                                        "bottom": 0,
-                                                        "left": 0,
-                                                        "right": 0
-                                                      }
-                                                    }
-                                                  },
-                                                  {
-                                                    "type": "listTile",
-                                                    "data": {
-                                                      "title": {
-                                                        "type": "text",
-                                                        "data": {
-                                                          "text": "Haemoglobin"
-                                                        },
-                                                        "style": {
-                                                          "fontSize": 18,
-                                                          "fontColor": "000000",
-                                                          "fontWeight": "semiBold"
-                                                        }
-                                                      },
-                                                      "subtitle": {
-                                                        "type": "text",
-                                                        "data": {
-                                                          "text": "Your haemoglobin level is low"
-                                                        },
-                                                        "style": {
-                                                          "fontSize": 16,
-                                                          "fontColor": "828282",
-                                                          "fontWeight": "regular"
-                                                        }
-                                                      },
-                                                      "leading": {
-                                                        "type": "container",
-                                                        "data": {
-                                                          "children": [
-                                                            {
-                                                              "type": "networkImage",
-                                                              "data": {
-                                                                "imageUrl": "https://i.imgur.com/Ku9pGpA.png"
-                                                              },
-                                                              "style": {
-                                                                "height": 54,
-                                                                "width": 54,
-                                                                "scale": "fit",
-                                                                "cornerRadius": 12
-                                                              }
-                                                            }
-                                                          ]
-                                                        },
-                                                        "style": {
-                                                          "width": 70,
-                                                          "height": 70,
-                                                          "backgroundColor": "EA6830",
-                                                          "borderColor": "ffffff",
-                                                          "borderWidth": 0,
-                                                          "elevation": 0,
-                                                          "borderRadius": 16,
-                                                          "shadowColor": "ffffff",
-                                                          "shadowRadius": 0
-                                                        }
-                                                      },
-                                                      "trailing": {
-                                                        "type": "row",
-                                                        "data": {
-                                                          "children": [
-                                                            {
-                                                              "type": "text",
-                                                              "data": {
-                                                                "text": "10.3"
-                                                              },
-                                                              "style": {
-                                                                "fontSize": 28,
-                                                                "fontColor": "EA6830",
-                                                                "fontWeight": "bold"
-                                                              }
-                                                            },
-                                                            {
-                                                              "type": "text",
-                                                              "data": {
-                                                                "text": " g/dL"
-                                                              },
-                                                              "style": {
-                                                                "fontSize": 16,
-                                                                "fontColor": "EA6830",
-                                                                "fontWeight": "regular",
-                                                                "padding": {
-                                                                  "left": 0,
-                                                                  "right": 0,
-                                                                  "top": 0,
-                                                                  "bottom": 0
-                                                                }
-                                                              }
-                                                            }
-                                                          ]
-                                                        },
-                                                        "style": {
-                                                          "content_width": "wrap_content"
-                                                        }
-                                                      }
-                                                    },
-                                                    "style": {
-                                                      "backgroundColor": "f8f8f8",
-                                                      "borderColor": "eeeeee",
-                                                      "borderWidth": 0,
-                                                      "elevation": 0,
-                                                      "borderRadius": 20,
-                                                      "shadowColor": "000000",
-                                                      "shadowRadius": 0,
-                                                      "containerY": 0,
-                                                      "padding": {
-                                                        "left": 0,
-                                                        "right": 0,
-                                                        "top": 10,
-                                                        "bottom": 0
-                                                      }
-                                                    }
-                                                  },
-                                                  {
-                                                    "type": "spacer",
-                                                    "data": {
-                                                      "minLength": 20
-                                                    },
-                                                    "style": {}
-                                                  }
-                                                ]
-                                              },
-                                              "style": {
-                                                "alignment": "leading",
-                                                "spacing": 12,
-                                                "padding": {
-                                                  "top": 0,
-                                                  "right": 16,
-                                                  "bottom": 20,
-                                                  "left": 16
                                                 }
-                                              }
                                             },
                                             {
-                                              "type": "spacer",
-                                              "data": {
-                                                "minLength": 20
-                                              },
-                                              "style": {}
+                                                "type": "spacer"
+                                            },
+                                            {
+                                                "type": "text",
+                                                "data": {
+                                                    "text": "Flex 3 seater magic bed"
+                                                },
+                                                "style": {
+                                                    "fontSize": 12,
+                                                    "fontColor": "000000",
+                                                    "padding": {
+                                                        "top": 0,
+                                                        "right": 0,
+                                                        "bottom": 0,
+                                                        "left": 0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "type": "container",
+                                                "data": {
+                                                    "children": [
+                                                        {
+                                                            "type": "text",
+                                                            "data": {
+                                                                "text": "c3b2cd0ee7e7d9ffe586f539fcb9c1"
+                                                            },
+                                                            "style": {
+                                                                "fontSize": 12,
+                                                                "fontColor": "000000",
+                                                                "padding": {
+                                                                    "top": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0,
+                                                                    "left": 0
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "style": {
+                                                    "border": {
+                                                        "color": "ffffff",
+                                                        "radius": {
+                                                            "top": 10,
+                                                            "right": 10,
+                                                            "bottom": 10,
+                                                            "left": 10
+                                                        },
+                                                        "width": 0
+                                                    },
+                                                    "backgroundColor": "ffffff"
+                                                }
                                             }
-                                          ]
-                                        },
-                                        "style": {
-                                          "alignment": "leading",
-                                          "spacing": 12,
-                                          "padding": {
+                                        ]
+                                    },
+                                    "style": {
+                                        "alignment": "leading",
+                                        "horizontal_alignment": "start",
+                                        "spacing": 8,
+                                        "padding": {
                                             "top": 10,
-                                            "right": 0,
-                                            "bottom": 20,
-                                            "left": 0
-                                          }
+                                            "right": 10,
+                                            "bottom": 10,
+                                            "left": 10
                                         }
-                                      }
-                                    ]
-                                  }
+                                    }
                                 }
-                              }
-                            }
-                          ]
-                        },
-                        "style": {
-                          "alignment": "leading",
-                          "spacing": 10
-                        }
-                      }
-                    ]
-                  },
-                  "style": {
-                    "alignment": "leading",
-                    "horizontal_alignment": "start",
-                    "spacing": 8,
-                    "padding": {
-                      "top": 20,
-                      "right": 16,
-                      "bottom": 10,
-                      "left": 16
-                    }
-                  }
-                }
-              ]
-            },
-            "style": {
-              "backgroundColor": "ffffff",
-              "borderColor": "ffffff",
-              "borderWidth": 0,
-              "elevation": 0,
-              "borderRadius": 20,
-              "shadowColor": "000000",
-              "shadowRadius": 4
-            }
-          },
-          {
-            "type": "row",
-            "data": {
-              "children": [
-                {
-                  "type": "container",
-                  "data": {
-                    "children": [
-                      {
-                        "type": "lottieImage",
-                        "data": {
-                          "lottieUrl": "https://lottie.host/54cc9bdb-fad0-46ec-9033-87c1cbb19ad9/MmXkN54ol1.json"
-                        },
-                        "style": {
-                          "height": 225,
-                          "width": 150,
-                          "padding": {
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "left": 0
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "style": {
-                    "backgroundColor": "FFE8EC",
-                    "borderColor": "FFE8EC",
-                    "borderWidth": 0,
-                    "elevation": 0,
-                    "borderRadius": 20,
-                    "shadowColor": "FFE8EC",
-                    "shadowRadius": 4,
-                    "height": 225,
-                    "padding": {
-                      "top": 0,
-                      "right": 0,
-                      "bottom": 0,
-                      "left": 0
-                    }
-                  }
-                },
-                {
-                  "type": "container",
-                  "data": {
-                    "children": [
-                      {
-                        "type": "lottieImage",
-                        "data": {
-                          "lottieUrl": "https://lottie.host/caface6b-5590-4e5a-89d5-11235b1d00b1/gEj24C6nnG.json"
-                        },
-                        "style": {
-                          "height": 225,
-                          "width": 150,
-                          "padding": {
-                            "top": 0,
-                            "right": 0,
-                            "bottom": 0,
-                            "left": 0
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "style": {
-                    "backgroundColor": "BAEDE1",
-                    "borderColor": "BAEDE1",
-                    "borderWidth": 0,
-                    "elevation": 0,
-                    "borderRadius": 20,
-                    "shadowColor": "BAEDE1",
-                    "shadowRadius": 4,
-                    "height": 225,
-                    "padding": {
-                      "top": 0,
-                      "right": 0,
-                      "bottom": 0,
-                      "left": 0
-                    }
-                  }
-                }
-              ]
-            },
-            "style": {
-              "alignment": "center",
-              "spacing": 16,
-              "padding": {
-                "top": 16,
-                "right": 0,
-                "bottom": 0,
-                "left": 0
-              }
-            }
-          }
-        ]
-      },
-      "style": {
-        "alignment": "leading",
-        "spacing": 0,
-        "padding": {
-          "top": 5,
-          "right": 0,
-          "bottom": 5,
-          "left": 0
-        }
-      }
-    }
-  ]
+                            ]
 }
