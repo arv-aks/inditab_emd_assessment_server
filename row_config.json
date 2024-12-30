@@ -18,8 +18,7 @@
                                                     "imageUrl": "https://www.med-technews.com/downloads/4237/download/health%20app.jpg?cb=46c3b2cd0ee7e7d9ffe586f539fcb9c1"
                                                 },
                                                 "style": {
-                                                    "height": 100,
-                                                    "width": 100,
+                                                    "height": 160,
                                                     "scale": "fill",
                                                     "padding": {
                                                         "top": 0,
@@ -71,11 +70,12 @@
                                                     ]
                                                 },
                                                 "style": {
+                                                    "height": 60,
                                                     "border": {
                                                         "color": "ffffff",
                                                         "radius": {
-                                                            "topLeft": 10,
-                                                            "topRight": 10,
+                                                            "topLeft": 0,
+                                                            "topRight": 0,
                                                             "bottomLeft": 10,
                                                             "bottomRight": 10
                                                         },
