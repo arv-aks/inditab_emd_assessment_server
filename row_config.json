@@ -1,5 +1,13 @@
 {
-  "children": [
+    "children": [
+        {
+            "type": "listView",
+            "data": {
+                "children": [
+                    {
+                        "type": "container",
+                        "data": {
+                            "children": [
                                 {
                                     "type": "column",
                                     "data": {
@@ -23,9 +31,6 @@
                                                 }
                                             },
                                             {
-                                                "type": "spacer"
-                                            },
-                                            {
                                                 "type": "text",
                                                 "data": {
                                                     "text": "Flex 3 seater magic bed"
@@ -40,6 +45,9 @@
                                                         "left": 0
                                                     }
                                                 }
+                                            },
+                                            {
+                                                "type": "spacer"
                                             },
                                             {
                                                 "type": "container",
@@ -92,4 +100,31 @@
                                     }
                                 }
                             ]
+                        },
+                        "style": {
+                            "height": 300,
+                            "width": 250,
+                            "border": {
+                                "color": "000000",
+                                "radius": "16",
+                                "width": 1
+                            },
+                            "backgroundColor": "ffffff"
+                        }
+                    }
+                ]
+            },
+            "style": {
+                "shrinkWrap": "true",
+                "spacing": 10,
+                "scrollDirection": "horizontal",
+                "padding": {
+                    "top": 5,
+                    "right": 0,
+                    "bottom": 5,
+                    "left": 0
+                }
+            }
+        }
+    ]
 }
