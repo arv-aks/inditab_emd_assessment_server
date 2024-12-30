@@ -1,7 +1,7 @@
 {
     "children": [
         {
-            "type": "column",
+            "type": "listView",
             "data": {
                 "children": [
                     {
@@ -54,10 +54,11 @@
                                                         {
                                                             "type": "text",
                                                             "data": {
-                                                                "text": "c3b2cd0ee7e7d9ffe586f539fcb9c1"
+                                                                "text": "₹ 10,000/-"
                                                             },
                                                             "style": {
-                                                                "fontSize": 12,
+                                                                "fontSize": 16,
+                                                                "fontWeight": "bold",
                                                                 "fontColor": "000000",
                                                                 "padding": {
                                                                     "top": 0,
@@ -70,6 +71,7 @@
                                                     ]
                                                 },
                                                 "style": {
+                                                    "alignmen": "center",
                                                     "height": 60,
                                                     "border": {
                                                         "color": "ffffff",
@@ -106,10 +108,10 @@
                             "border": {
                                 "color": "000000",
                                 "radius": {
-                                    "topLeft": 10,
-                                    "topRight": 10,
-                                    "bottomLeft": 10,
-                                    "bottomRight": 10
+                                    "topLeft": 0,
+                                    "topRight": 0,
+                                    "bottomLeft": 0,
+                                    "bottomRight": 0
                                 },
                                 "width": 1
                             },
@@ -124,9 +126,9 @@
                 "spacing": 10,
                 "scrollDirection": "horizontal",
                 "padding": {
-                    "top": 5,
+                    "top": 0,
                     "right": 0,
-                    "bottom": 5,
+                    "bottom": 0,
                     "left": 0
                 }
             }
