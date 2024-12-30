@@ -71,7 +71,7 @@
                                                     ]
                                                 },
                                                 "style": {
-                                                    "alignmen": "center",
+                                                    "alignment": "center",
                                                     "height": 60,
                                                     "border": {
                                                         "color": "ffffff",
