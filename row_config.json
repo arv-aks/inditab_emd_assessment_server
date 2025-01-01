@@ -477,7 +477,7 @@
             "style": {
                 "shrinkWrap": true,
                 "spacing": 10,
-                "scrollDirection": "vertical",
+                "scrollDirection": "horizontal",
                 "padding": {
                     "top": 10,
                     "right": 10,
