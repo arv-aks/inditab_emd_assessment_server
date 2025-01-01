@@ -3,12 +3,11 @@
         {
             "type": "text",
             "data": {
-                "text": "Improvement Time"
+                "text": "Improvement Time test update"
             },
             "style": {
-                "fontSize": 18.0,
-                "fontColor": "080c14",
-                "fontWeight": "bold"
+                "fontSize": 14.0,
+                "fontColor": "080c14"
             }
         }
     ]
